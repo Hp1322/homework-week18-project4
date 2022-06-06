@@ -1,0 +1,3 @@
+com\herokuapp\testbase\TestBase.class
+com\herokuapp\herokuappinfo\HerokuAppCURDTestWithSteps.class
+com\herokuapp\herokuappinfo\FirstTest.class
