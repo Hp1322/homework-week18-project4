@@ -35,11 +35,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 4],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 2],
-                ['Errors',  2],
+                ['Failing', 0],
+                ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -68,11 +68,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
+                {label: '4 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '2} requirements with failures'},
-                {label: '2} requirements with errors'},
+                {label: '0} requirements with failures'},
+                {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -160,7 +160,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-06-2022 15:46</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2022 19:14</span>
     <br style="clear:left"/>
 </div>
 
@@ -193,8 +193,8 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>4</td>
-                                    <td>0</td>
                                     <td>4</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -224,8 +224,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>4</td>
-            <td>0 (0%)</td>
             <td>4 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -240,14 +240,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>4</td>
-            <td>0 (0%)</td>
             <td>4 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">5 seconds</td>
+                <td colspan="5">9 seconds</td>
         </tr>
         </body>
     </table>
@@ -276,96 +276,96 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="92567dc7af597e95176300434e7be5296b455f72a90150a9e08a1774a4126838.html" class="ellipsis"
-                                           title="This will create a new booking 1 expectation failed. Expected status...">
+                                           title="This will create a new booking ">
                                             This will create a new booking
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="FAILURE-text">2</td>
+                                <td class="SUCCESS-text">2</td>
 
 
-                                <td class="FAILURE-text" data-sort="2022-06-06 15:46:30">15:46:30</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 19:14:43">19:14:43</td>
 
-                                <td class="FAILURE-text">3.86</td>
+                                <td class="SUCCESS-text">5.59</td>
                             </tr>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="bbc845453b41f6ef6bb28469237b33b14395c137ec85423d41f80bfb1d8be8b0.html" class="ellipsis"
-                                           title="Verify if the booking was added to the list Assertion error: 1 expectation failed...">
+                                           title="Verify if the booking was added to the list ">
                                             Verify if the booking was added to the list
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="FAILURE-text">2</td>
+                                <td class="SUCCESS-text">2</td>
 
 
-                                <td class="FAILURE-text" data-sort="2022-06-06 15:46:34">15:46:34</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 19:14:48">19:14:48</td>
 
-                                <td class="FAILURE-text">0.62</td>
+                                <td class="SUCCESS-text">0.71</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="3a9906ef9562b1ecbfa78cdc74b0e27f9e3012736232d3f2032b0fea292bce04.html" class="ellipsis"
-                                           title="Update the store information and verify updated information Illegal argument exception: Path para...">
+                                           title="Update the store information and verify updated information ">
                                             Update the store information and verify updated information
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">3</td>
+                                <td class="SUCCESS-text">4</td>
 
 
-                                <td class="ERROR-text" data-sort="2022-06-06 15:46:35">15:46:35</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 19:14:49">19:14:49</td>
 
-                                <td class="ERROR-text">0.11</td>
+                                <td class="SUCCESS-text">1.12</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="8cdd78c02aecd0e4488b1b9dcd058a540f5c0ab880a090932ea98f5852b162e7.html" class="ellipsis"
-                                           title="Delete the booking and verify if the list is deleted! Illegal argument exception: Path para...">
+                                           title="Delete the booking and verify if the list is deleted! ">
                                             Delete the booking and verify if the list is deleted!
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">4</td>
+                                <td class="SUCCESS-text">4</td>
 
 
-                                <td class="ERROR-text" data-sort="2022-06-06 15:46:35">15:46:35</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-07 19:14:50">19:14:50</td>
 
-                                <td class="ERROR-text">0.07</td>
+                                <td class="SUCCESS-text">1.1</td>
                             </tr>
                         </tbody>
                     </table>

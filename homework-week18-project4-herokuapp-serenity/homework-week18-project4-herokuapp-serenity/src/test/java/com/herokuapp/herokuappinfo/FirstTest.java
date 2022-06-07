@@ -38,7 +38,7 @@ public class FirstTest extends TestBase {
                 .header("Content-Type", "application/json")
                 .body(herokuappPojo)
                 .when()
-                .post("/booking");
+                .post(EndPoints.CREATE_BOOKING_BY_ID);
         response.prettyPrint();
         response.then().statusCode(200);
 

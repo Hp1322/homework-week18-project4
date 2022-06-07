@@ -26,7 +26,7 @@ public class HerokuAppSteps {
                 .header("Content-Type", "application/json")
                 .body(herokuappPojo)
                 .when()
-                .post("/booking")
+                .post(EndPoints.CREATE_BOOKING_BY_ID)
                 .then();
     }
 
@@ -55,7 +55,6 @@ public class HerokuAppSteps {
 
         return SerenityRest.given().log().all()
                 .header("Content-Type", "application/json")
-                //   .header("Authorization","Basic "+encoded)
                 .auth().preemptive().basic("admin","password123")
                 .body(herokuappPojo)
                 .pathParam("bookingID",bookingID)

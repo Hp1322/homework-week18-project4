@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2022 00:21</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2022 19:14</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -91,9 +91,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-3x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="failing-color">
+                                    <span class="success-color">
                                     Update The Store Information And Verify Updated Information
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -140,13 +140,13 @@
                         <div class="step-description">
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
-                            <span class="top-level-step">Creating booking with bookingID 0, firstname : Jim46364_updated, lastname: Brown51059, totalprice : 110, depositpaid : true, bookingdates : {checkin=2018-01-01, checkOut=2019-01-01} and additionalneeds : Breakfast</span>
+                            <span class="top-level-step">Creating booking with bookingID 4049, firstname : James, lastname: Brown, totalprice : 110, depositpaid : false, bookingdates : {checkin=2018-01-01, checkout=2019-01-01} and additionalneeds : Breakfast</span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.55s</span></td>
+                    <td width="100"><span class="top-level-step">0.58s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -160,7 +160,7 @@
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">PUT https://restful-booker.herokuapp.com/booking/0</span>
+                            <span class="nested-group-step">PUT https://restful-booker.herokuapp.com/booking/4049</span>
 
                                 <span class="rest-query">
                 <span>
@@ -179,23 +179,23 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                PUT https://restful-booker.herokuapp.com/booking/0
+                                PUT https://restful-booker.herokuapp.com/booking/4049
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 400</p>
+                                    <p>Status code: 200</p>
                                     <p>Content Type: application/json</p>
                                     <h5>Request Headers</h5>
                                     <pre>Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                     <h5>Content Body</h5>
-                                    <pre>{<br>    &quot;firstname&quot;: &quot;Jim46364_updated&quot;,<br>    &quot;lastname&quot;: &quot;Brown51059&quot;,<br>    &quot;totalprice&quot;: 110,<br>    &quot;depositpaid&quot;: true,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;2018-01-01&quot;,<br>        &quot;checkOut&quot;: &quot;2019-01-01&quot;<br>    },<br>    &quot;username&quot;: null,<br>    &quot;password&quot;: null,<br>    &quot;additionalneeds&quot;: &quot;Breakfast&quot;<br>}</pre>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;James&quot;,<br>    &quot;lastname&quot;: &quot;Brown&quot;,<br>    &quot;totalprice&quot;: 110,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;2018-01-01&quot;,<br>        &quot;checkout&quot;: &quot;2019-01-01&quot;<br>    },<br>    &quot;username&quot;: null,<br>    &quot;password&quot;: null,<br>    &quot;additionalneeds&quot;: &quot;Breakfast&quot;<br>}</pre>
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: text/plain; charset=utf-8<br>Content-Length: 11<br>Etag: W/&quot;b-EFiDB1U+dmqzx9Mo2UjcZ1SJPO8&quot;<br>Date: Mon, 06 Jun 2022 23:21:41 GMT<br>Via: 1.1 vegur</pre>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 171<br>Etag: W/&quot;ab-2JuCG+rm0j19vXZJ6e2smp/JvW8&quot;<br>Date: Tue, 07 Jun 2022 18:14:49 GMT<br>Via: 1.1 vegur</pre>
                                 <h5>Response Body</h5>
                                     <pre>
-                                        Bad Request
+                                        {<br>    &quot;firstname&quot;: &quot;James&quot;,<br>    &quot;lastname&quot;: &quot;Brown&quot;,<br>    &quot;totalprice&quot;: 110,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;2018-01-01&quot;,<br>        &quot;checkout&quot;: &quot;2019-01-01&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;Breakfast&quot;<br>}
                                     </pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
@@ -219,55 +219,79 @@
                     </table>
                     </td>
                     <tr>
-                <tr class="test-FAILURE">
-                    <td width="40"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
-                    <td width="%" colspan="1">
-                    <span class="top-level-step">An error occurred outside of step execution.</span>
-                </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">0.56s</span></td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">Getting the booking information with bookingID : 4049</span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.54s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
-                    <td width="40">&nbsp</td>
-                    <td width="%" colspan="3">
-                        <span class="error-message"
-                              title="1 expectation failed. Expected status code (200) but was (400). ">
-                        1 expectation failed. Expected status code (200) but was (400). 
-                            </span>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-overall">
-                        View stack trace
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">GET https://restful-booker.herokuapp.com/booking/4049</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-4">
+                        REST Query
                     </button>
-                </div>
+                </span>
                 <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                <div class="modal fade" id="restModal-4" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
+                                <h4 class="modal-title" id="restModalLabel">
+                                GET https://restful-booker.herokuapp.com/booking/4049
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <h5>1 expectation failed.<br>Expected status code <200> but was <400>.<br></h5>
-                                io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy
-                                    :636) <br>
-                                io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy
-                                    :122) <br>
-                                io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy
-                                    :130) <br>
-                                io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java
-                                    :117) <br>
-                                com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps.test003(HerokuAppCURDTestWithSteps.java
-                                    :62) <br>
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: null</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=<br>Accept=*/*</pre>
+                                    <h5>Content Body</h5>
+                                    <pre></pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 171<br>Etag: W/&quot;ab-2JuCG+rm0j19vXZJ6e2smp/JvW8&quot;<br>Date: Tue, 07 Jun 2022 18:14:50 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;firstname&quot;: &quot;James&quot;,<br>    &quot;lastname&quot;: &quot;Brown&quot;,<br>    &quot;totalprice&quot;: 110,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;2018-01-01&quot;,<br>        &quot;checkout&quot;: &quot;2019-01-01&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;Breakfast&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
                             </div>
-
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
                                     Close
@@ -276,12 +300,21 @@
                         </div>
                     </div>
                 </div>
-                </td>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
                 </tr>
-                <tr class="test-FAILURE">
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.56s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.12s</em></span></td>
                 </tr>
 
             </table>

@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" skipped="0" tests="1" time="6.66" timestamp="2022-06-07T00:24:52.010+01:00[Europe/London]"><testcase classname="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" name="This will create a new booking"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;500&gt;.
-</failure><system-err>1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;500&gt;.
-&#13;
-io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
-io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
-io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
-io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
-com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps.test001(HerokuAppCURDTestWithSteps.java:41)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" skipped="0" tests="4" time="8.53" timestamp="2022-06-07T19:14:43.316+01:00[Europe/London]"><testcase classname="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" name="This will create a new booking"/><testcase classname="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" name="Verify if the booking was added to the list"/><testcase classname="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" name="Update the store information and verify updated information"/><testcase classname="com.herokuapp.herokuappinfo.HerokuAppCURDTestWithSteps" name="Delete the booking and verify if the list is deleted!"/></testsuite>
